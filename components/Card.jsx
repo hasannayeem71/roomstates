@@ -1,11 +1,11 @@
 import {
-    Button,
-    Card,
-    createStyles,
-    Group,
-    Image,
-    SimpleGrid,
-    Text
+  Button,
+  Card,
+  createStyles,
+  Group,
+  Image,
+  SimpleGrid,
+  Text
 } from "@mantine/core";
 
 const useStyles = createStyles((theme) => ({
@@ -48,7 +48,9 @@ function CardWithStats({ image, title, description }) {
         {description}
       </Text>
       <Card.Section className={classes.footer}>
-        <Button>Read More</Button>
+        <Button component="a"
+          target="_blank"
+          href="https://bnc.lt/diNm/gXarFVq2IB?referral=0000e130&path=login">Read More</Button>
       </Card.Section>
     </Card>
   );

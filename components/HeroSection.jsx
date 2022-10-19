@@ -9,8 +9,7 @@ import {
 const useStyles = createStyles((theme) => ({
   hero: {
     position: "relative",
-    backgroundImage:
-      'url(/househhero.jpg)',
+    backgroundImage: "url(/househhero.jpg)",
     backgroundSize: "cover",
     backgroundPosition: "center",
   },
@@ -86,6 +85,9 @@ export function HeroContentLeft() {
         </Text>
 
         <Button
+          component="a"
+          target="_blank"
+          href="https://bnc.lt/diNm/gXarFVq2IB?referral=0000e130&path=login"
           variant="gradient"
           size="xl"
           radius="xl"

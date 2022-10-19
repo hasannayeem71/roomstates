@@ -106,10 +106,16 @@ export function ServiceSection() {
             </List>
 
             <Group mt={30}>
-              <Button radius="xl" size="md" className={classes.control}>
+              <Button
+                radius="xl"
+                size="md"
+                className={classes.control}
+                component="a"
+                target="_blank"
+                href="https://bnc.lt/diNm/gXarFVq2IB?referral=0000e130&path=login"
+              >
                 Take a look
               </Button>
-              
             </Group>
           </div>
           <Image

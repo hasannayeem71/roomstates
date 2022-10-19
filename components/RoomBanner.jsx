@@ -64,7 +64,9 @@ export function RoomBanner() {
         </Text>
 
         <div className={classes.controls}>
-          <Button>Discover</Button>
+          <Button component="a"
+          target="_blank"
+          href="https://bnc.lt/diNm/gXarFVq2IB?referral=0000e130&path=login">Discover</Button>
         </div>
       </div>
     </div>
